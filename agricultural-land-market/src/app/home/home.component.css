@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f8f9fa;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .buy-btn {
+    background: #27ae60;
+    color: white;
+  }
+  
+  .buy-btn:hover {
+    background: #219150;
+    transform: scale(1.05);
+  }
+  
+  .sell-btn {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .sell-btn:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+  }

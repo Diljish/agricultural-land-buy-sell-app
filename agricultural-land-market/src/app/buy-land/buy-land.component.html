@@ -1,0 +1,10 @@
+<div class="buy-land-container">
+  <h2>Available Lands for Sale</h2>
+  <div class="land-list">
+    <div class="land-box" *ngFor="let land of lands">
+      <h3>{{ land.title }}</h3>
+      <p>{{ land.description }}</p>
+      <p class="price">Price: {{ land.price }}</p>
+    </div>
+  </div>
+</div>
